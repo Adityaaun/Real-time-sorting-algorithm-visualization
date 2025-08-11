@@ -1,32 +1,63 @@
 # Real-Time Sorting Algorithm Visualization
 
-A C++ project using **SDL2** to visualize how different sorting algorithms work in real-time.  
-This version includes **Selection Sort, Insertion Sort, Bubble Sort, Merge Sort, and Quick Sort**.  
-(*Heap Sort is excluded in this build.*)
+A web-based real-time sorting visualizer built with **HTML, CSS, and JavaScript**.  
+This tool helps understand how sorting algorithms work step-by-step with interactive animations.
 
 ---
 
 ## 🎯 Features
-- Real-time graphical visualization of sorting.
-- Adjustable visualization speed.
-- Multiple sorting algorithms to choose from.
-- Color-coded bars representing array elements.
+- Visualize multiple sorting algorithms:
+  - Bubble Sort
+  - Insertion Sort
+  - Merge Sort
+  - Quick Sort
+  - Selection Sort
+- Real-time animations
+- Color-coded elements for better understanding
+- Simple and responsive UI
 
 ---
 
 ## 🛠️ Technologies Used
-- **C++**
-- **SDL2** (Simple DirectMedia Layer)
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
 
 ---
 
-## 📦 Installation & Run
+## 📂 Project Structure
+```
+Real-time-sorting-algorithm-visualization/
+│
+├── css/
+│   ├── style.css
+│   └── style.css.map
+│
+├── scripts/
+│   ├── bubble_sort.js
+│   ├── insertion_sort.js
+│   ├── main.js
+│   ├── merge_sort.js
+│   ├── quick_sort.js
+│   ├── selection_sort.js
+│   └── visualizations.js
+│
+├── index.html
+├── README.md
+└── VS_Sorting_Visualizer.code-workspace
+```
 
-### Prerequisites
-- C++ compiler (GCC, MinGW, MSVC, etc.)
-- SDL2 library installed ([Download SDL2](https://libsdl.org/download-2.0.php))
+---
 
-### Clone the Repository
-```bash
-git clone https://github.com/Adityaaun/Real-time-sorting-algorithm-visualization.git
-cd Real-time-sorting-algorithm-visualization
+## 🚀 How to Run
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Adityaaun/Real-time-sorting-algorithm-visualization.git
+   ```
+2. **Open `index.html` in your browser**.
+3. **Choose a sorting algorithm** and watch it work in real-time.
+
+
+
+## 📜 License
+This project is licensed under the **MIT License**.
